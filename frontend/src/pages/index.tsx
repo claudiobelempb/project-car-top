@@ -15,14 +15,14 @@ const Home: NextPage = () => {
       <Slider />
       <div className='container mt-4'>
         <div className='row bg-light rounded-3 p-5 d-flex  align-items-center g-3'>
-          <div className='col-12 col-sm-6 col-md-4'>
+          <div className='col-6 col-sm-6 col-md-6 col-lg-4'>
             <Link href={'/products'}>
-              <a className='btn btn-primary btn-lg fw-bold text-uppercase px-md-2'>
+              <a className='btn btn-primary fw-bold text-uppercase px-sm-5 px-md-5'>
                 Ver Catálago
               </a>
             </Link>
           </div>
-          <div className='col-12 col-sm-6 col-md-8 '>
+          <div className='col-6 col-sm-6 col-md-6 col-lg-8'>
             <h3 className='lead fs-5 text-dark'>Comece agora a navegar</h3>
           </div>
         </div>
