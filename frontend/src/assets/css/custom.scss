@@ -1,0 +1,102 @@
+// @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+:root {
+  --bs-primary: #00285f;
+  --bs-secondary: #263238;
+  --bs-success: #198754;
+  --bs-info: #0dcaf0;
+  --bs-warning: #f78b00;
+  --bs-danger: #dc3545;
+  --bs-light: #f8f9fa;
+  --bs-dark: #212529;
+  --bs-primary-rgb: 13, 110, 253;
+  --bs-secondary-rgb: 108, 117, 125;
+  --bs-success-rgb: 25, 135, 84;
+  --bs-info-rgb: 13, 202, 240;
+  --bs-warning-rgb: 255, 193, 7;
+  --bs-danger-rgb: 220, 53, 69;
+  --bs-light-rgb: 248, 249, 250;
+  --bs-dark-rgb: 33, 37, 41;
+  --bs-white-rgb: 255, 255, 255;
+  --bs-black-rgb: 0, 0, 0;
+  --bs-body-color-rgb: 33, 37, 41;
+  --bs-body-bg-rgb: 255, 255, 255;
+  // --font-family-sans-serif: 'Roboto', sans-serif;
+  --bs-gradient: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.15),
+    rgba(255, 255, 255, 0)
+  );
+  // --bs-body-font-family: var(--font-family-sans-serif);
+  // --bs-body-font-size: 1rem;
+  // --bs-body-font-weight: 400;
+  // --bs-body-line-height: 1.5;
+  // --bs-body-color: #212529;
+  // --bs-body-bg: #e5e5e5;
+}
+
+$font-family-sans-serif: 'Roboto', sans-serif;
+
+$theme-colors: (
+  'primary': #00285f,
+  'secondary': #263238,
+  'success': #198754,
+  'info': #0dcaf0,
+  'warning': #f78b00,
+  'danger': #dc3545,
+  'light': #ededed,
+  'dark': #212529
+);
+
+body,
+input,
+textarea,
+select,
+button {
+  border: 0;
+  /* outline: 0; */
+
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+@media (max-width: 1080px) {
+  html {
+    font-size: 93.75%; //16x09375 = 15rem
+  }
+}
+
+@media (max-width: 720px) {
+  html {
+    font-size: 87.5%; //16x0875 = 14rem
+  }
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  // color: inherit;
+  text-decoration: none;
+  display: block;
+}
+
+[disabled] {
+  opacity: 0.6;
+  cursor: not-allowed;
+  // pointer-events: none;
+}
+
+@import '~bootstrap/scss/bootstrap.scss';
+// $theme-colors: (
+//   'primary': #00285f,
+//   'secondary': #263238
+// );
+
+$body-font-family: 'Roboto', sans-serif;
+// $body-bg: #e5e5e5;
+// $body-color: #263238;
+// $primary: #00285f;
+// $secondary: #263238;
